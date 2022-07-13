@@ -1,0 +1,11 @@
+<p>
+  Lista de cursos do portal {{nomePortal}}
+</p>
+
+<ul>
+  <li *ngFor = "let i of cursos; index as y; first as isFirst" >
+    {{y}}| Este é o curso {{i}}
+  </li>
+  
+</ul>
+<app-cursos-detalhe></app-cursos-detalhe>
